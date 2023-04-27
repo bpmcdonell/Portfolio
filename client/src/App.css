@@ -1,0 +1,162 @@
+.footerSVG {
+    width: 30px;
+    height: 30px;
+    margin: 5px 10px;
+}
+
+.footerText {
+    font-size: 13px;
+    margin: 5px 10px;
+    text-align: center;
+}
+
+.headerDiv {
+    text-align: center;
+}
+
+.headerDiv li {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: medium;
+
+}
+
+.headerDiv ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.headerDiv a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.aboutMeDiv {
+    text-align: center;
+    margin: 0 10px;
+    display: block;
+}
+
+.contactDiv {
+    text-align: center;
+    margin: 10px 10px;
+    display: block;
+}
+
+.contact-form label {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    margin: 0 10px;
+}
+
+.contact-form input textarea {
+    width: 100%;
+    padding: 5px 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.workDiv {
+    text-align: center;
+    margin: 10px 10px;
+    display: block;
+}
+
+.workCardDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 30px;
+
+}
+
+.workCard {
+    margin: 30px;
+}
+
+.App {
+    text-align: center;
+}
+
+.App-logo {
+    height: 40vmin;
+    pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+
+.Tabs {
+    background-color: grey;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: navy;
+    font-size: 2px;
+    color: #282c34;
+}
+
+.Tabs li {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 10px;
+}
+
+header {
+    background-color: #282c34;
+    min-height: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+footer {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    bottom: 0;
+    background-color: #282c34;
+    color: white;
+    width: 100%;
+}
+
+footer h1 {
+    font-size: 20px;
+}
+
+footer h2 {
+    font-size: 20px;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
