@@ -7,7 +7,7 @@ This project is a single page application that displays my portfolio. It is buil
 To install this project, clone the repository and run `npm install` to install the dependencies. Then run `npm start` to start the application.
 
 ## Usage
-This project is deployed on Heroku. You can view it [here]().
+This project is deployed on Heroku. You can view it [here](https://bpm-portfolio.herokuapp.com/).
 
 ## License
 N/A
