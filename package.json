@@ -4,6 +4,9 @@
   "requires": true,
   "author": "",
   "description": "",
+  "engines": {
+    "node": "18.13.0"
+  },
   "keywords": [],
   "license": "ISC",
   "main": "server/server.js",
